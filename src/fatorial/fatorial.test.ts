@@ -1,5 +1,5 @@
 import { fatorial } from './fatorial';
-
+// Arquivo teste
 test('fatorial de 0 deve ser igual a 1', () => {
     expect(fatorial(0)).toBe(1);
 });
