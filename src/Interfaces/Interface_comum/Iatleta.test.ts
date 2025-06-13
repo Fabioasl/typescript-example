@@ -1,3 +1,5 @@
+// Arquivo de testes 
+
 import {Judo, Basquete} from './Iatleta';
 
 describe('Classe judo', () => {

@@ -1,3 +1,5 @@
+// Arquivo da classe 
+
 export interface Iatleta{
     nome: string;
     altura: number;
