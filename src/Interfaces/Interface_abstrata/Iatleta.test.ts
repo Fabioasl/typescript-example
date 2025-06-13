@@ -23,6 +23,12 @@ describe('Classe abstrata do judoca', () =>{
         expect(judoca.faixa).toBe("preta");
         expect(judoca.Categoria()).toBe(`Categoria do atleta: Ana é Ligeiro.`)
     });
+        it('deve alterar os atributos do judoca' , () =>{
+        judoca.peso = 85;
+        expect(judoca.peso).toBe(85);
+        expect(judoca.Categoria()).toBe(`Categoria do atleta: Ana é Pesado.`)     
+    });
+    
     it('A média de ana deve ser 100%', () =>{
         expect(Judoca.media(judoca,10,0)).toBe(`A média de aproveitamento do atleta: Ana é 100%.`)
     })
