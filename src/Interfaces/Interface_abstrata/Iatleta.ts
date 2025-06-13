@@ -1,3 +1,5 @@
+// Arquivo da classe 
+
 export abstract class Iatleta{
     nome: string;
     altura: number;

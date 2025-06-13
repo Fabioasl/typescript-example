@@ -1,3 +1,4 @@
+// Arquivo de testes 
 import {Judoca, Basquetebolista } from './Iatleta';
 
 describe('Classe abstrata do judoca', () =>{
